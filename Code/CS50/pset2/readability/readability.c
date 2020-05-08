@@ -6,11 +6,6 @@ int word_count(string);
 int sentence_count(string);
 int letter_count(string);
 
-
-
-
-
-
 int main(void)
 {
     string x = get_string("Text: ");
@@ -31,38 +26,7 @@ int main(void)
     {
         printf("Grade %i\n", index);
     }
-    
-    
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
-
-
-
-
 
 
 int word_count(string y)
@@ -74,12 +38,10 @@ int word_count(string y)
        {
            x++;
        }
-
-
    }
    return x+1;
-   
 }
+
 
 int sentence_count(string y)
 {
@@ -90,12 +52,11 @@ int sentence_count(string y)
        {
            x++;
        }
-
-
    }
    return x;
-   
 }
+
+
 int letter_count(string y)
 {
    int x = 0;
@@ -108,13 +69,7 @@ int letter_count(string y)
        else if(64 < (int)y[i] && (int)y[i] < 91 )
        {
            x++;
-       }
-       else
-       {
-           
-       }
-       
+       }       
    }
    return x;
-   
 }

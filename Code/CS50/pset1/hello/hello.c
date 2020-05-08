@@ -7,15 +7,5 @@ int main(void)
     string i = get_string("what's your name?\n");
     //printing the name
     printf("Hello, %s\n ", i);
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
 }
+

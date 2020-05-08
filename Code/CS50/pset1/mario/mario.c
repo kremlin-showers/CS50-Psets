@@ -1,7 +1,6 @@
 #include<stdio.h>
 #include<cs50.h>
 
-
 void make_brick(int n);
 int main(void)
 {
@@ -18,40 +17,22 @@ int main(void)
         for (int x = 0; x < h - i ; x++)
         {
             printf(" ");
-
-
-
         }
         //use of a function defined later
         make_brick(i);
-
-
-
     }
-
-
-
-
-
 }
 //function to print the hashtags in the pyramid formation
 void make_brick(int n)
 {
-
     for (int i = 0; i < n ; i++)
     {
-
         printf("#");
     }
     printf("  ");
     for (int x = 0; x < n; x++)
     {
-
-
         printf("#");
-
     }
     printf("\n");
-
-
 }
